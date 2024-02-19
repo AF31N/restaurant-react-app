@@ -1,0 +1,33 @@
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(0); /* Starts from initial position */
+  }
+  100% {
+    transform: translateX(-100%); /* Moves images horizontally */
+  }
+}
+
+/* Class to apply the animation */
+.moving-logos {
+  animation: moveHorizontal 15s linear infinite; /* Apply the animation to .moving-logos */
+  display: flex;
+  overflow-x: hidden; /* Hides horizontal overflow */
+}
+
+/* Adjust the animation duration for smaller screens */
+@media (max-width: 768px) {
+  .moving-logos {
+    animation-duration: 12s; /* Modify duration for smaller screens */
+  }
+}
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust this margin as needed */
+}
+
+
+
+  
+  
