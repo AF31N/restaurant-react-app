@@ -1,6 +1,7 @@
 {
   "name": "restaurent-app",
   "homepage": "https://AF31N.github.io/restaurant-react-app",
+  "homepage": "https://app-restaurent-react.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
