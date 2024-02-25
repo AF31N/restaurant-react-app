@@ -67,14 +67,15 @@ function Header() {
         },
     }));
 
-    const NavBarLink = styled(Typography)(({}) => ({
+    const NavBarLink = styled(Typography)({  // Updated line
         fontSize: '15px',
         color: '#4F5361',
         fontWeight: 'bold',
         cursor: 'pointer',
         '&:hover': { color: '#fff' },
-        textDecoration: 'none'
-    }));
+        textDecoration: 'none'  
+    });
+    
 
     const NavBarLogo = styled("img")(({ theme }) => ({
         cursor: 'pointer',
